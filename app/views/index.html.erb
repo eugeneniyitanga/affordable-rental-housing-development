@@ -1,0 +1,14 @@
+<h1>Affordable Rental Housing Development</h1>
+ 
+ <table>
+   <tr>
+     <th>Community Are </th>
+     <th>community Number </th>
+   </tr>
+ <% @affordable_rental_housing_developments.each do |affordable_rental_housing_development| %>
+   <tr>
+     <td><%= affordable_rental_housing_development["community-area"] %></td>
+     <td><%= affordable_rental_housing_development["community-area-number"] %></td>
+   </tr>
+ <% end %>
+ </table> 

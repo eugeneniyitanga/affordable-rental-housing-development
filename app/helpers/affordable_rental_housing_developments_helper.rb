@@ -1,0 +1,2 @@
+module AffordableRentalHousingDevelopmentsHelper
+end
